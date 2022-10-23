@@ -1,0 +1,77 @@
+<html><head>
+
+    <style>
+
+        button {
+  position: absolute;
+}
+.text {
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+}
+.gradient {
+  background: linear-gradient(30deg, #F27121, #E94057, #8A2387);
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  color:white;
+}
+
+.gradient:hover {
+  background: linear-gradient(30deg, #F27121 20%, #E94057, #8A2387 90%);
+}
+    </style>
+</head>
+<body style="
+    background: black;
+">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<center><h1 class="text">Will you hangout with me plz? ♡♥💕❤ (✿◠‿◠)</h1></center>
+<div class="wrapper">
+
+
+<button onclick="myFunction()" style="  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background: white;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    color: black;
+    font-size: x-large;
+  ">YES</button>
+<button class="buttonno" style="  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background: white;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    color: black;
+    font-size: x-large;
+  ">NO</button>
+
+</div>
+
+
+    <script type="text/javascript">
+        $('.buttonno').on('mouseover', function() {
+  $(this).animate({
+    'top': Math.random() * window.innerHeight + "px",
+    'left': Math.random() * window.innerWidth + "px"
+  }, "medium");
+})
+
+function myFunction() {
+  alert("weeee <3♡♥💕❤, Im sooo happy. Love you ヽ(´▽｀)ノ \n~MAAZ");
+}
+    </script>
+
+</body></html>
